@@ -1,4 +1,4 @@
-module todomod
+module github.com/Alibi-S/todoProject
 
 go 1.17
 
