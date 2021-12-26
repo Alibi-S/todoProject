@@ -5,7 +5,7 @@ import (
 	"os"
 
 	controllers "github.com/Alibi-S/todoProject/controllers"
-	"github.com/go-pg/pg"
+	"github.com/go-pg/pg/v9"
 )
 
 func Connect() *pg.DB {
