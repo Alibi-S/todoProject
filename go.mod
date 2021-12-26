@@ -8,7 +8,7 @@ require (
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.7.7 // indirect
 	github.com/go-pg/pg v8.0.7+incompatible // indirect
-	github.com/go-pg/pg/v9 v9.1.1 // indirect
+	// github.com/go-pg/pg/v9 v9.1.1 // indirect
 	github.com/go-pg/urlstruct v0.2.11 // indirect
 	github.com/go-pg/zerochecker v0.1.1 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
