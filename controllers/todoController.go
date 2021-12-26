@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-pg/pg/"
-	"github.com/go-pg/pg/orm"
+	"github.com/go-pg/pg/v9"
+	orm "github.com/go-pg/pg/v9/orm"
 	guuid "github.com/google/uuid"
 )
 
