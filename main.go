@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	config "github.com/Alibi-S/todoProject/config"
+	config "github.com/Alibi-S/todoProject/configs"
 	routes "github.com/Alibi-S/todoProject/routes"
 	"github.com/gin-gonic/gin"
 )
