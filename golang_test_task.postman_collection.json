@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "be3265d3-328d-4e1a-b5c2-7284673ef1e2",
+		"name": "golang_test_task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetTodos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/todos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTodo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/todo/4e4b57b2-1486-49f2-8056-2bf03ebfba2b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"todo",
+						"4e4b57b2-1486-49f2-8056-2bf03ebfba2b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateTodo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Create Todo project\",\r\n    \"text\": \"Create todo list project for PrimeSource222222222222222222222222222222222\",\r\n    \"completed\": \"Yes\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/todo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"todo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateTodo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n\r\n{\r\n    \"title\": \"Create Todo project\",\r\n    \"text\": \"Create todo list project for PrimeSource!\",\r\n    \"completed\": \"No\"\r\n}\r\n\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/todo/4e4b57b2-1486-49f2-8056-2bf03ebfba2b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"todo",
+						"4e4b57b2-1486-49f2-8056-2bf03ebfba2b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteTodo",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/todo/810f2535-0228-4589-a0d6-5a1b439a4476",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"todo",
+						"810f2535-0228-4589-a0d6-5a1b439a4476"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
