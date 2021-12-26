@@ -4,7 +4,7 @@ import (
 	"log"
 
 	config "github.com/Alibi-S/todoProject/config"
-	routes "github.com/Alibi-S/todoProjectroutes"
+	routes "github.com/Alibi-S/todoProject/routes"
 	"github.com/gin-gonic/gin"
 )
 
