@@ -4,7 +4,6 @@ go 1.17
 
 require (
 	github.com/gin-gonic/gin v1.7.7
-	github.com/go-pg/pg v8.0.7+incompatible
 	github.com/go-pg/pg/v9 v9.1.1
 	github.com/google/uuid v1.1.1
 )

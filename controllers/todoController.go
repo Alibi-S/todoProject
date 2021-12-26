@@ -14,7 +14,7 @@ import (
 type Todo struct {
 	ID        string    `json:"id"`
 	Title     string    `json:"title"`
-	Text      string    `json:"body"`
+	Text      string    `json:"text"`
 	Completed string    `json:"completed"`
 	CreatedAt time.Time `json:"created_at"`
 	UpdatedAt time.Time `json:"updated_at"`
