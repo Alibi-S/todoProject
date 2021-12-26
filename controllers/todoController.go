@@ -130,7 +130,7 @@ func EditTodo(c *gin.Context) {
 	c.BindJSON(&todo)
 	completed := todo.Completed
 
-	_, err := dbConnect.Model(&Todo{}).Set("completed = ?", completed).Where("id = ?", todoId).Update()
+	_, err := dbConnect.Model(&Todo{}).Set("completed = ?", completed).Set("updated_at = ?", time.Now()).Where("id = ?", todoId).Update()
 
 	if err != nil {
 		log.Printf("Error: %v\n", err)
